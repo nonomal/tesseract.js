@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  *
  * Worker script for browser and node
@@ -7,7 +9,6 @@
  * @author Guillermo Webster <gui@mit.edu>
  * @author Jerome Wu <jeromewus@gmail.com>
  */
-require('regenerator-runtime/runtime');
 const isURL = require('is-url');
 const dump = require('./utils/dump');
 const env = require('../utils/getEnvironment')('type');
